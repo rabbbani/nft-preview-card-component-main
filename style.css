@@ -32,6 +32,7 @@ body{
 
 
 section{
+    transform: scale(0.9);
     background-color: var(--Very-dark-blue-card-BG);
     box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.179);
     max-width: 370px;
@@ -41,9 +42,9 @@ section{
     transition: 300ms ease-in-out;
 }
 
-section:hover{
-    transform: translateY(-3px);
-}
+/* section:hover{
+    transform: translateY(1px);
+} */
 
 .image img{
     width: 100%;
@@ -105,7 +106,7 @@ section:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 1rem;
+    padding-bottom: 1.6rem;
 }
 
 .after-image .icon img{
